@@ -152,3 +152,14 @@ ul li{
         border-radius: 2px;
     }
 }
+
+@media only screen and (max-height: 415px){
+    .main{
+        border: 5px solid cadetblue;
+        border-radius: 10px;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 5px 50px;
+    }
+}
